@@ -1,38 +1,233 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: rgb(249, 247, 255);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+/* Header styles */
+.header {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(177, 125, 226, 0.747);
+  padding: 20px 10%;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+  font-family: "SUSE", sans-serif;
+}
+
+.logo {
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 700;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+/* Hero section styles */
+.hero {
+  z-index: 50;
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+/* MainContent styles */
+.mainContent {
+  display: flex; 
+  gap: 20px; 
+  padding: 20px; 
+  width: 100%;
+}
+/* SideMenu base styling */
+.sideMenu {
+  height: 100vh;
+  width: 30%; /* Adjust width as needed */
+  background-color: #615b5b;
   color: white;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-link {
+/* Menu Section styling */
+.menu-section {
+  padding: 30px;
+  height: 20%;
+  width: 50vh;
+  background-color: rgba(255, 0, 0, 0);
+  border-bottom: 2px solid #555;
+  
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* Border with a thicker width */
+  padding-bottom: 5px;
+  width: 100%; /* Ensure the border spans the full width */
+}
+
+/* CartGrid styles */
+.cartGrid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center; /* Center the grid items horizontally */
+}
+
+/* Cart item styles */
+.cart-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Flexbox for centering content */
+  flex-direction: column; /* Align content vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text within the cart item */
+  font-family: 'Arial', sans-serif; /* Change to your preferred font */
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px; /* Set a consistent height */
+  object-fit: cover; /* Ensure the image covers the box */
+  border-radius: 8px;
+  margin-bottom: 15px; /* Space between image and text */
+}
+
+.cart-item-name {
+  font-size: 20px; /* Adjust font size */
+  font-weight: bold; /* Make the font bold */
+  margin-bottom: 5px;
+  color: #333; /* Text color */
+}
+
+.cart-item-price {
+  font-size: 18px; /* Adjust font size */
+  color: #666; /* Text color */
+  margin-bottom: 10px;
+}
+
+.cart-item-description {
+  font-size: 14px; /* Adjust font size */
+  color: #999; /* Text color */
+  margin-bottom: 15px;
+}
+
+.cart-item-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Space between text and button */
+}
+
+.cart-item-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* src/Footer.css */
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-content a {
+  display: block;
   color: #61dafb;
+  text-decoration: none;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
 }
