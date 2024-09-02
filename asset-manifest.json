@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/simpleecommerce/static/css/main.f855e6bc.css",
-    "main.js": "/simpleecommerce/static/js/main.bdcc2d75.js",
+    "main.css": "/simpleecommerce/static/css/main.099cc56b.css",
+    "main.js": "/simpleecommerce/static/js/main.5fd040b7.js",
     "static/js/453.1b6cbde4.chunk.js": "/simpleecommerce/static/js/453.1b6cbde4.chunk.js",
-    "static/media/logo.svg": "/simpleecommerce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/2024-curated-ft-ganpati-hp.jpg": "/simpleecommerce/static/media/2024-curated-ft-ganpati-hp.0ae2e87c38eb36a3c796.jpg",
+    "static/media/pots.jpg": "/simpleecommerce/static/media/pots.86b6da9f5699be8f558d.jpg",
     "index.html": "/simpleecommerce/index.html",
-    "main.f855e6bc.css.map": "/simpleecommerce/static/css/main.f855e6bc.css.map",
-    "main.bdcc2d75.js.map": "/simpleecommerce/static/js/main.bdcc2d75.js.map",
+    "main.099cc56b.css.map": "/simpleecommerce/static/css/main.099cc56b.css.map",
+    "main.5fd040b7.js.map": "/simpleecommerce/static/js/main.5fd040b7.js.map",
     "453.1b6cbde4.chunk.js.map": "/simpleecommerce/static/js/453.1b6cbde4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.bdcc2d75.js"
+    "static/css/main.099cc56b.css",
+    "static/js/main.5fd040b7.js"
   ]
 }
