@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/simpleecommerce/static/css/main.54c3c477.css",
-    "main.js": "/simpleecommerce/static/js/main.7468a8b2.js",
+    "main.css": "/simpleecommerce/static/css/main.bb8056e3.css",
+    "main.js": "/simpleecommerce/static/js/main.d300990a.js",
     "static/js/453.1b6cbde4.chunk.js": "/simpleecommerce/static/js/453.1b6cbde4.chunk.js",
+    "static/media/collection2.jpg": "/simpleecommerce/static/media/collection2.f5c4a14b009d6ffce068.jpg",
     "static/media/2024-curated-ft-ganpati-hp.jpg": "/simpleecommerce/static/media/2024-curated-ft-ganpati-hp.0ae2e87c38eb36a3c796.jpg",
     "static/media/fiddleLeaf.jpg": "/simpleecommerce/static/media/fiddleLeaf.2ffdf738f8e4d41b3db5.jpg",
+    "static/media/succulent.jpg": "/simpleecommerce/static/media/succulent.e166acd497d7d1645e1e.jpg",
     "static/media/pots.jpg": "/simpleecommerce/static/media/pots.86b6da9f5699be8f558d.jpg",
+    "static/media/flowring plant.jpeg": "/simpleecommerce/static/media/flowring plant.0b8d6c80c580359d82c8.jpeg",
+    "static/media/air purifying plant.jpeg": "/simpleecommerce/static/media/air purifying plant.eede0ce33824a0f6bee9.jpeg",
+    "static/media/OIP.jpeg": "/simpleecommerce/static/media/OIP.87d31ec2c08731815c49.jpeg",
     "index.html": "/simpleecommerce/index.html",
-    "main.54c3c477.css.map": "/simpleecommerce/static/css/main.54c3c477.css.map",
-    "main.7468a8b2.js.map": "/simpleecommerce/static/js/main.7468a8b2.js.map",
+    "main.bb8056e3.css.map": "/simpleecommerce/static/css/main.bb8056e3.css.map",
+    "main.d300990a.js.map": "/simpleecommerce/static/js/main.d300990a.js.map",
     "453.1b6cbde4.chunk.js.map": "/simpleecommerce/static/js/453.1b6cbde4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c3c477.css",
-    "static/js/main.7468a8b2.js"
+    "static/css/main.bb8056e3.css",
+    "static/js/main.d300990a.js"
   ]
 }
