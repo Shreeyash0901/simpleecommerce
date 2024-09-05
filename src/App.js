@@ -8,33 +8,38 @@ import Cart from './Component/Cart';
 import Footer from './Component/Footer';
 
 
+
 function App() {
   return (
     <div className="App">
      
+     {/* navbar/header section  */}
       <Navbar />
+
+        {/* hero img section  */}
       <HeroSection />
 
+        {/* sidemen & shopping cart section  */}
        <div className="mainContent">
-        <div className="sideMenu">
+       
           <SideMenu />
-        </div>
-        <div className="cartGrid">
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-          <Cart className="cartItem" />
-        </div>
-
+        
+          <div className="cartGrid">
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+    <Cart className="cartItem" />
+  </div>
     
       </div>
    
-
+  
+        {/* footer sectioln */}
       <Footer/>
      
     </div>
