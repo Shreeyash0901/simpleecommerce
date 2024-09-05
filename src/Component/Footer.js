@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Avenue E-Commerce Limited (AEL). All Rights Reserved.</p>
+        <p>&copy; 2024 Shreeyash E-Commerce Limited (SEL). All Rights Reserved.</p>
       </div>
     </footer>
     </div>
